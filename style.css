@@ -1,0 +1,74 @@
+body{
+    width: 80%;
+    margin: auto;
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    outline: none;
+    width: 100%;  height: 30px;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    transition: all 1s ease-in-out;
+    height: 40px;
+}
+input:focus{
+    transform: scale(1.1);
+}
+header{
+    margin: 3rem 0px;
+}
+.contaioner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 105%;
+    align-items: center;
+}
+.contaioner input{
+    max-width: 180px;
+    margin: 1rem;
+}
+.carite{
+    margin-top: 1rem;
+    border: none;
+    background-color: #d20ce4;
+    color:white;
+    font-size: 2rem;
+    width: 100%;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.carite:hover{
+    letter-spacing: 10px;
+    background-color: #e40cae;
+    
+}
+
+.outbots{
+    padding:2rem 0px;
+}
+table{
+    width:100%;
+    text-align: center;
+    margin-top: 100px;
+}
+#gadwal tr td{
+    padding: 25px;
+    background-color: #d20ce4;
+}
+
+.fa-trash-can{
+    color:red;
+    cursor: pointer;
+}
+.fa-pen-to-square{
+    color: green;
+    cursor: pointer;
+}
+#clear_all{
+    margin: 4rem 1rem;
+}
+
